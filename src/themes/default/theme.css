@@ -1,0 +1,6 @@
+@import './colors';
+
+:root {
+  --header-background-color: var(--dark-blue);
+  --primary-button-bg-color: black;
+}

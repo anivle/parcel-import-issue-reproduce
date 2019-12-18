@@ -1,0 +1,26 @@
+{
+  "name": "parcel-import-issue-reproduce",
+  "version": "1.0.0",
+  "description": "blablab",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-css-regex-replace": "^0.1.1",
+    "postcss-modules": "^1.4.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "config": {
+    "theme": "default"
+  }
+}

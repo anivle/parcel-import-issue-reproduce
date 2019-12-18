@@ -1,0 +1,7 @@
+@import '/Users/aleonov/dev/parcel-import-issue-reproduce/src/themes/default/theme.css';
+
+.title {
+  color: var(--header-background-color);
+  margin: 0;
+  margin-bottom: 30px;
+}
